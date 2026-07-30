@@ -7,6 +7,7 @@ Every claim below has a command you can run that checks it.
 | Project | The receipt |
 |---|---|
 | [turbosort](https://github.com/ampactor-labs/turbosort) | SIMD radix sort on [crates.io](https://crates.io/crates/turbosort): 2.2–3.2× `std::sort` for u32/f32, measured 1M–100M keys; perf/flamegraph profiling story in the README; Miri-checked unsafe core on every push |
+| [landed](https://github.com/ampactor-labs/landed) | Fail-closed Solana execution gateway on [crates.io](https://crates.io/crates/landed): assemble, gate, submit by RPC or Jito bundle, track to a landed slot; CI starts a real `solana-test-validator` and lands live transactions every push |
 | [two-top](https://github.com/ampactor-labs/two-top) | Rollback-netcode brawler: bit-identical simulation across Linux, ARM, macOS, and Android, verified by CI checksum diff; Q16.16 fixed-point, zero floats in the sim |
 | [sonido](https://github.com/ampactor-labs/sonido) | One `no_std` Rust DSP codebase shipping as a CLAP plugin, a live WASM demo, and bare-metal STM32/Daisy firmware; 36 effects, 1,800+ tests, per-effect µs budgets |
 | [mentl](https://github.com/ampactor-labs/mentl) | Self-hosting compiler targeting WebAssembly: byte-identical self-compilation fixpoint, boots from a 1.6 MB WASM build of itself |
