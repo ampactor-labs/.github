@@ -28,8 +28,10 @@ that decides what an agent may touch before it acts.
 
 **[turbosort](https://github.com/ampactor-labs/turbosort)**
 no_std Rust sorting algorithms, measured in the open.
+
 **[two-top](https://github.com/ampactor-labs/two-top)**
 deterministic simulation with verified replays.
+
 **[tokensafe](https://github.com/ampactor-labs/tokensafe)**
 wallet-safety tooling.
 
